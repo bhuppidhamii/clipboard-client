@@ -17,8 +17,6 @@ function App() {
     // When other user types
     socket.on("clipboard_update", (data) => {
       setContent(data);
-      console.log("typing", data);
-      
     });
 
     // return () => {
